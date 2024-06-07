@@ -1,0 +1,9 @@
+#articles {
+    display: flex;
+    padding-top: 15px;
+  }
+
+  .article-card {
+    background-color: black;
+    width: 150px;
+  }

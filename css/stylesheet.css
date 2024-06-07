@@ -53,9 +53,8 @@
     background-color: black;
     width: 150px;
   }
-
+  
   footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -64,7 +63,9 @@
     text-align: center;
     font-size: 18px;
     padding: 5px;
+    margin-top: 15px;
   }
+
   .navigation li {
     display: inline;
     padding-left: 15px; 

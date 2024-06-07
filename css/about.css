@@ -1,0 +1,56 @@
+h3 {
+    background-color: rgb(224,224,224);
+    min-height: 100px;
+    padding-top: 20px;
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#content {
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+}
+
+#placeholder {
+    width: 1000px;
+    height: 450px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin-bottom: 18px;
+}
+
+.about-us {
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+#contact-message {
+    text-align: left;
+}
+.label {
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 15px;
+}
+
+.necessary-form {
+    color: red;
+}
+
+#message {
+    height: 150px;
+}
