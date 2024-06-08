@@ -1,9 +1,38 @@
 #articles {
     display: flex;
     padding-top: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   .article-card {
-    background-color: black;
-    width: 150px;
+    background-color: rgb(143, 143, 143);
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1;
+    min-width: 150px;
+    max-width: 300px;
+  }
+
+  .article-card img {
+    max-width: 100%;
+  }
+
+  .article-card a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  .article-card a:hover {
+    text-decoration: underline;
+  }
+
+  .author-date li {
+    display: inline;
+    font-size: 15px;
+  }
+
+  ul {
+    padding: 0;
+    list-style-type: none;
   }

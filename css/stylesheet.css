@@ -39,19 +39,18 @@
     border-bottom: 1px solid rgb(224,224,224);
   }
 
+  .site-logo {
+    width: 150px;
+  }
+
+  #instagram-logo img {
+    width: 25px;
+    display: inline;
+  }
+
   a:hover {
     color: #0366d6;
     cursor: pointer;
-  }
-
-  #articles {
-    display: flex;
-    padding-top: 15px;
-  }
-
-  .article-card {
-    background-color: black;
-    width: 150px;
   }
   
   footer {
