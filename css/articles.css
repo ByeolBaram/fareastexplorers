@@ -16,9 +16,8 @@
     font-size: 15px;
 }
 
-ul {
-    padding: 0;
-    list-style-type: none;
+#title h3 {
+    font-size: 30px;
 }
 
 #content {
@@ -30,13 +29,7 @@ ul {
 #content img {
     width: 600px;
     margin: auto;
-}
-
-#placeholder {
-    width: 1000px;
-    height: 450px;
-    display: block;
-    margin-bottom: 15px;
+    padding: 20px;
 }
 
 .paragraphs {
@@ -46,8 +39,4 @@ ul {
     font-size: 15px;
     text-align: left;
     margin-bottom: 15px;
-}
-
-img {
-    padding: 20px;
 }
