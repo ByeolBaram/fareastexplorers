@@ -28,6 +28,37 @@
   }
   /* End of CSS Reset*/
 
+  p, h1, h2, h3, h4, h5, h6, a, li {
+    line-height: 1.6em;
+  }
+
+  body {
+    font-size: 100%;
+  }
+
+  h1 {
+    font-size: 2.0em;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  h3 {
+    font-size: 1.6em;
+  }
+
+  h4 {
+    font-size: 1.4em;
+  }
+
+  p, a {
+    font-size: 1.2em; 
+  }
+
+  li {
+    font-size: 1.0em;
+  }
 
   #header {
     display: flex;
@@ -63,7 +94,6 @@
     background-color: rgb(65,65,65);
     color: white;
     text-align: center;
-    font-size: 18px;
     padding: 5px;
     margin-top: 15px;
   }
@@ -76,5 +106,5 @@
   li a {
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 1.4em;
   }

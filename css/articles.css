@@ -2,7 +2,6 @@
     background-color: rgb(224,224,224);
     min-height: 100px;
     padding-top: 20px;
-    font-size: 25px;
     margin-bottom: 15px;
     text-align: center;
 }
@@ -13,16 +12,13 @@
 
 .author-date li {
     display: inline;
-    font-size: 15px;
-}
-
-#title h3 {
-    font-size: 30px;
 }
 
 #content {
     text-align: center;
-    width: 1000px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -36,7 +32,6 @@
     border-bottom: 1px solid rgb(224,224,224);
 }
 .writing {
-    font-size: 15px;
     text-align: left;
     margin-bottom: 15px;
 }

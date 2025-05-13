@@ -1,9 +1,9 @@
 #articles {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 15px;
     padding-bottom: 15px;
-    justify-content: center;
-    grid-template-columns: repeat(3, max(33%, 300px));
+    justify-content: center; 
     border-bottom: 1px solid rgb(224,224,224);
 }
 
@@ -11,6 +11,8 @@
   background-color: rgb(143, 143, 143);
   padding: 10px;
   margin: 10px;
+  flex: 1 1 30%;
+  min-width: 320px;
 }
 
 .article-card img {
@@ -20,7 +22,6 @@
 .article-card a {
   text-decoration: none;
   color: black;
-  font-size: 20px;
 }
 
 .article-card a:hover {
@@ -29,7 +30,6 @@
 
 .author-date li {
   display: inline;
-  font-size: 15px;
 }
 
 ul {
@@ -41,6 +41,7 @@ ul {
   padding-bottom: 15px;
   border-bottom: 1px solid rgb(224,224,224);
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -54,16 +55,18 @@ h1 {
   padding: 10px;
   margin: 10px;
   text-align: center;
+  flex: 1 1 30%;
+  min-width: 320px;
+  max-width: 350px; 
 }
 
 .flags-card img {
-  width: max(150px, 300px); 
+  max-width: 100%; 
 }
 
 .flags-card a {
   text-decoration: none;
   color: black;
-  font-size: 20px;
 }
 
 .flags-card a:hover {
@@ -74,7 +77,6 @@ h3 {
   background-color: rgb(224,224,224);
   min-height: 100px;
   padding-top: 20px;
-  font-size: 25px;
   margin-bottom: 15px;
   text-align: center;
 }
