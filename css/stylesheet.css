@@ -98,6 +98,10 @@
     margin-top: 15px;
   }
 
+  footer a {
+    color: lightblue;
+  }
+
   .navigation li {
     display: inline;
     padding-left: 15px; 
