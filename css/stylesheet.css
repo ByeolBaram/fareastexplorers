@@ -108,3 +108,8 @@
     color: black;
     font-size: 1.4em;
   }
+
+  img {
+    height: auto;
+    object-fit: contain;
+  }
