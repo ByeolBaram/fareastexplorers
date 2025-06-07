@@ -36,3 +36,8 @@
     text-align: left;
     margin-bottom: 15px;
 }
+
+#player {
+    margin: auto;
+    padding: 20px;
+}
