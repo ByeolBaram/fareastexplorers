@@ -55,10 +55,6 @@
     max-height: 500px;
 }
 
-iframe {
-    object-fit: contain;
-}
-
 .caption {
     font-size: 1.0em;
     margin-top: -10px;
